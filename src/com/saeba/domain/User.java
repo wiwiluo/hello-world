@@ -3,7 +3,8 @@ package com.saeba.domain;
 /**
  * Created by wiwil on 2017/4/9.
  */
-public class User {
+public class User
+{
 
     /**
      * 用户ID
@@ -25,35 +26,43 @@ public class User {
      */
     private String sex;
 
-    public int getUserID() {
+    public int getUserID()
+    {
         return userID;
     }
 
-    public void setUserID(int userID) {
+    public void setUserID(int userID)
+    {
         this.userID = userID;
     }
 
-    public String getUsername() {
+    public String getUsername()
+    {
         return username;
     }
 
-    public void setUsername(String username) {
+    public void setUsername(String username)
+    {
         this.username = username;
     }
 
-    public int getAge() {
+    public int getAge()
+    {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(int age)
+    {
         this.age = age;
     }
 
-    public String getSex() {
+    public String getSex()
+    {
         return sex;
     }
 
-    public void setSex(String sex) {
+    public void setSex(String sex)
+    {
         this.sex = sex;
     }
 }
