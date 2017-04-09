@@ -15,7 +15,9 @@ public class HelloWorldServlet
         user.setUsername("77sama");
         user.setAge(30);
         user.setSex("男");
+        System.out.println("================");
         System.out.println(user);
+        System.out.println("================");
     }
 
 }
